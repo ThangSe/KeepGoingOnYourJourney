@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e453c632057fd0142af77931d792d529, type: 3}
+  m_Name: GameSettingDefault
+  m_EditorClassIdentifier: 
+  walkableLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  unwalkableLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  newPlaceLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  countdownToStartTime: {fileID: 11400000, guid: f8ab6532428569642b6d974604fef73d, type: 2}
+  countdownToStartTimeMax: {fileID: 11400000, guid: 98e3bd0af8b8af548ad6ed3d1509b980, type: 2}
+  playerProtectedTime: {fileID: 11400000, guid: 79ac1eeeed388cf48b0e17cdac316ca6, type: 2}
+  currentHealth: {fileID: 11400000, guid: 0c52b23fa812aa749a69b3e935206d5d, type: 2}
+  maxHealth: {fileID: 11400000, guid: 08e74e28942ea3b4591d0b1e9134842a, type: 2}
+  currentScore: {fileID: 11400000, guid: c6751580a6fbef243ba3069e067dd019, type: 2}
+  turnPlayLeft: {fileID: 11400000, guid: f8046ac695458594ebfa1841d3d59b9a, type: 2}
+  turnPlayMax: {fileID: 11400000, guid: 3f2363971d29f6448a13c3deaa5f7546, type: 2}
+  mapHeight: {fileID: 11400000, guid: 190ae3c642c3e284ca407925b33b2f48, type: 2}
+  isMuteSound: {fileID: 11400000, guid: b0e8cdd1599ca2945b9252c32ac87447, type: 2}
+  isProtectedPlayer: {fileID: 11400000, guid: a49cc9f9f062c2c40b8d1fdf82b2c71b, type: 2}

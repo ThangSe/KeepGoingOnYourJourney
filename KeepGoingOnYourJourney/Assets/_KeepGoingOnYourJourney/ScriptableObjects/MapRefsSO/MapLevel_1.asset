@@ -1,0 +1,502 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b48d8b0a3bf1f43a99eb1b7aec17d9, type: 3}
+  m_Name: MapLevel_1
+  m_EditorClassIdentifier: 
+  wallInfo:
+  - specialWall: 0
+    wallVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -6
+    posY: 15
+  obstacleInfo:
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: -1, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: 0
+    posY: -17
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: 0, y: 1, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: 2
+    posY: -15
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: 1, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: 4
+    posY: -13
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: 0, y: -1, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: 6
+    posY: -11
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: 1, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: 8
+    posY: -9
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: 1, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: 8
+    posY: 3
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: 0, y: 1, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: 6
+    posY: 5
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: -1, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: 4
+    posY: 7
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: 0, y: -1, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: 2
+    posY: 9
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: 1, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: -4
+    posY: 11
+  - obstacleType: 1
+    obstacleVisual: 0
+    walkable: 1
+    moveDir: {x: -1, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 0
+      constantValue: 0
+      variable: {fileID: 11400000, guid: 2664c0e532aabe544a1c65c6a8005f01, type: 2}
+    posX: -4
+    posY: 19
+  - obstacleType: 0
+    obstacleVisual: 1
+    walkable: 1
+    moveDir: {x: 0, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 1
+      constantValue: 0
+      variable: {fileID: 0}
+    posX: 8
+    posY: -7
+  - obstacleType: 0
+    obstacleVisual: 1
+    walkable: 1
+    moveDir: {x: 0, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 1
+      constantValue: 0
+      variable: {fileID: 0}
+    posX: 8
+    posY: -3
+  - obstacleType: 0
+    obstacleVisual: 1
+    walkable: 1
+    moveDir: {x: 0, y: 0, z: 0}
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    moveDistance:
+      useConstant: 1
+      constantValue: 0
+      variable: {fileID: 0}
+    posX: 8
+    posY: 1
+  itemInfo:
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: 2
+    posY: -15
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: 4
+    posY: -13
+  - itemVisual: 1
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: 6
+    posY: -11
+  - itemVisual: 1
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: 8
+    posY: 3
+  - itemVisual: 1
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: -8
+    posY: 11
+  - itemVisual: 2
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: -8
+    posY: 19
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: 4
+    posY: 7
+  - itemVisual: 1
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: 6
+    posY: 5
+  - itemVisual: 0
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: 2
+    posY: 9
+  - itemVisual: 1
+    itemRefsSO: {fileID: 11400000, guid: c746b263b885bfa4bbd66048106542df, type: 2}
+    posX: 0
+    posY: 11
+  groundInfo:
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: -29
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: -27
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: -25
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: -23
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: -21
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: -19
+  - groundPos: 2
+    groundVisual: 1
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: -17
+  - groundPos: 5
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: -15
+  - groundPos: 8
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 2
+    posY: -17
+  - groundPos: 0
+    groundVisual: 0
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 2
+    posY: -15
+  - groundPos: 5
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 2
+    posY: -13
+  - groundPos: 8
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 4
+    posY: -15
+  - groundPos: 0
+    groundVisual: 0
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 4
+    posY: -13
+  - groundPos: 5
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 4
+    posY: -11
+  - groundPos: 8
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 6
+    posY: -13
+  - groundPos: 0
+    groundVisual: 0
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 6
+    posY: -11
+  - groundPos: 5
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 6
+    posY: -9
+  - groundPos: 8
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 8
+    posY: -11
+  - groundPos: 3
+    groundVisual: 1
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 8
+    posY: -9
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 8
+    posY: -7
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 8
+    posY: -5
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 8
+    posY: -3
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 8
+    posY: -1
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 8
+    posY: 1
+  - groundPos: 3
+    groundVisual: 1
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 8
+    posY: 3
+  - groundPos: 6
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 8
+    posY: 5
+  - groundPos: 7
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 6
+    posY: 3
+  - groundPos: 0
+    groundVisual: 0
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 6
+    posY: 5
+  - groundPos: 6
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 6
+    posY: 7
+  - groundPos: 7
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 4
+    posY: 5
+  - groundPos: 0
+    groundVisual: 0
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 4
+    posY: 7
+  - groundPos: 6
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 4
+    posY: 9
+  - groundPos: 7
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 2
+    posY: 7
+  - groundPos: 0
+    groundVisual: 0
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 2
+    posY: 9
+  - groundPos: 6
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 2
+    posY: 11
+  - groundPos: 7
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: 9
+  - groundPos: 1
+    groundVisual: 1
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: 11
+  - groundPos: 4
+    groundVisual: 1
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -2
+    posY: 11
+  - groundPos: 1
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -4
+    posY: 11
+  - groundPos: 4
+    groundVisual: 1
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -6
+    posY: 11
+  - groundPos: 2
+    groundVisual: 4
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -8
+    posY: 11
+  - groundPos: 2
+    groundVisual: 4
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -8
+    posY: 19
+  - groundPos: 1
+    groundVisual: 1
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -6
+    posY: 19
+  - groundPos: 1
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -4
+    posY: 19
+  - groundPos: 1
+    groundVisual: 1
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -2
+    posY: 19
+  - groundPos: 8
+    groundVisual: 2
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: 19
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: 21
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: 23
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: 25
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: 27
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: 0
+    posY: 29
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -2
+    posY: 13
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -2
+    posY: 15
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -2
+    posY: 17
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -6
+    posY: 17
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -6
+    posY: 15
+  - groundPos: 2
+    groundVisual: 3
+    wallRefsSO: {fileID: 11400000, guid: 84ea5b33a5a187340bd5688d5fd2354e, type: 2}
+    posX: -6
+    posY: 13
